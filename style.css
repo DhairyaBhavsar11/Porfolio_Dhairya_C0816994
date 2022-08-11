@@ -10,7 +10,8 @@ a{
 .hero{
     width: 100%;
     height: 100vh;
-    background-size: cover;
+    background: url(img/1.jpeg);
+    background-size: contain;
 }
 nav{
     display: flex;
@@ -91,3 +92,4 @@ nav ul li a:hover:after{
     margin-top: 25px;
     margin-bottom: 30px;
 }
+
