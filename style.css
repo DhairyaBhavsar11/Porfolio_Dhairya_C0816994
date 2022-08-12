@@ -10,11 +10,16 @@ a{
 .hero{
     width: 100%;
     height: 100vh;
-    background: url(img/1.jpeg);
+    /* background: url(img/1.jpeg);
     background-repeat: no-repeat;
-    background-position: right center;
-    position: relative;
-    
+    background-position: right center; */
+
+}
+img{
+    float: right;
+    margin-right: 5%;
+    margin-top: 10%;
+    width: 20%;
     
 }
 nav{
@@ -161,11 +166,11 @@ iframe {
     width: 100vw;
 }
 
-@media only screen and (max-width: 400px){
-    .hero{
-        background-image: inherit;
-        background-position: right bottom;
-        
-    }
+
+@media only screen and (max-width: 300px){
+    body {
+        transform: scale(1.1,1.1);
+        transform-origin: 0 0;
+     }
 
 }
